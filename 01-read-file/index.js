@@ -1,4 +1,4 @@
-const fs = require('fs');
+/* const fs = require('fs');
 const path = require('path');
 let data = '';
 const readableStream = fs.createReadStream(
@@ -8,4 +8,5 @@ const readableStream = fs.createReadStream(
 
 readableStream.on('data', chunk => data += chunk);
 readableStream.on('data', () => console.log( data ));
+ */
 
